@@ -1,0 +1,31 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "*.js", 
+      "options": {
+        "parser": "flow"
+      }
+    },
+    {
+      "files": "*.css", 
+      "options": {
+        "parser": "css",
+        "singleQuote": false
+      }
+    },
+    {
+      "files": "*.md", 
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": "*.eslintrc,.esmrc.json,.prettierrc,package.json", 
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
+}
